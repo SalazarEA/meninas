@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colección | Meninas</title>
+    <meta name="description" content="Colección de moños, vinchas, scrunchies y accesorios Meninas. Elegí los tuyos y envianos el pedido por WhatsApp.">
+    <link rel="icon" href="../images/logo1.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css"> 
+</head>
+
+<body>
+    <div id="global-header"></div>
+    <div id="fondo-carrito" class="cart-backdrop" hidden></div>
+    <button id="btn-abrir-carrito" class="cart-floating-btn" type="button" aria-controls="panel-carrito" aria-expanded="false">
+        🛒 Mi Carrito (<span id="contador-carrito">0</span>)
+    </button>
+
+    <div id="panel-carrito" class="cart-sidebar" role="region" aria-label="Tu carrito" aria-hidden="true" inert>
+        <div class="cart-header">
+            <h3>Tu Carrito ♡</h3>
+            <button id="btn-cerrar-carrito" class="cart-close-btn" type="button" aria-label="Cerrar carrito">✕</button>
+        </div>
+        
+        <div id="items-carrito" class="cart-body">
+        </div>
+
+        <div class="cart-footer">
+            <div class="cart-total-row">
+                <span>Total:</span>
+                <span id="total-carrito">$0</span>
+            </div>
+            <a id="btn-enviar-pedido" href="#" target="_blank" rel="noopener noreferrer" class="cart-submit-btn">
+                Enviar pedido por WhatsApp ➔
+            </a>
+            <button id="btn-vaciar-carrito" class="cart-clear-btn" type="button" disabled>
+                Vaciar carrito
+            </button>
+        </div>
+    </div>
+
+    <main class="container main-collection">
+        <div class="back-navigation">
+            <a href="../index.html" class="category-link back-link">
+                ← Volver al inicio
+            </a>
+        </div>
+
+        <div class="section-title">
+            <h2 id="categoria-titulo">Cargando colección...</h2>
+            <p id="categoria-descripcion">Explora nuestros accesorios exclusivos hechos a mano.</p>
+        </div>
+        
+        <div id="contenedor-productos" class="category-grid"></div>
+    </main>
+
+    <div id="global-footer"></div>
+
+    <script src="../js/layout.js"></script>
+    <script src="../js/carrito.js"></script>
+
+</body>
+</html>

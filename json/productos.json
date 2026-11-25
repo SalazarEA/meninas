@@ -1,0 +1,145 @@
+{
+    "monos": {
+        "titulo": "Colección de moños",
+        "descripcion": "Diseños coloridos, delicados y perfectos para lucir todos los dias",
+        "items": [
+            {
+                "id": "M1",
+                "nombre": "Tornasol",
+                "precio": 2500,
+                "descripcion": "Moños Tornasoles",
+                "img": "moñotornasol.jpeg"
+            },
+            {
+                "id": "M2",
+                "nombre": "Animal",
+                "precio": 2500,
+                "descripcion": "Moños Animal Print",
+                "img": "moños animal.jpeg"
+            },
+            {
+                "id": "M3",
+                "nombre": "Corazones",
+                "precio": 2500,
+                "descripcion": "Moño con Corazones Rosas",
+                "img": "moños de corazon.jpeg"
+            },
+            {
+                "id": "M4",
+                "nombre": "Florales",
+                "precio": 2500,
+                "descripcion": "Moños de Flores",
+                "img": "moños de flores.jpeg"
+            },
+            {
+                "id": "M5",
+                "nombre": "Apliques",
+                "precio": 2500,
+                "descripcion": "Moño con Apliques",
+                "img": "moños1.jpg"
+            }
+        ]
+    },
+    "vinchas": {
+        "titulo": "Colección de Vinchas",
+        "descripcion": "Vinchas originales, cómodas y diseñadas para completar cualquier look",
+        "items": [
+            {
+                "id": "V1",
+                "nombre": "Mariposa",
+                "precio": 3000,
+                "descripcion": "Vinchas con Mariposas",
+                "img": "Vinchas 7.jpeg"
+            },
+            {
+                "id": "V2",
+                "nombre": "Primavera",
+                "precio": 3500,
+                "descripcion": "Vincha Primavera",
+                "img": "Vinchas 8.jpeg"
+            },
+            {
+                "id": "V3",
+                "nombre": "Estrellas",
+                "precio": 2000,
+                "descripcion": "Vinchas de Estrellas",
+                "img": "Vinchas 9.jpeg"
+            }
+        ]
+    },
+    "scrunchies": {
+        "titulo": "Colección de Scrunchies",
+        "descripcion": "Suaves, elásticos, no maltratan el cabello y están llenas de color",
+        "items": [
+            {
+                "id": "S1",
+                "nombre": "Estampadas",
+                "precio": 1500,
+                "descripcion": "Scrunchies Estampadas",
+                "img": "Scrunchies animal.jpeg"
+            },
+            {
+                "id": "S2",
+                "nombre": "Pasteles",
+                "precio": 2500,
+                "descripcion": "Scrunchies de Colores Pasteles",
+                "img": "Scrunchies colores.jpeg"
+            },
+            {
+                "id": "S3",
+                "nombre": "Broderi",
+                "precio": 2500,
+                "descripcion": "Scrunchies Broderi",
+                "img": "Scrunchies pasteles.jpeg"
+            }
+        ]
+    },
+    "mas":{
+        "titulo": "Combos y Más Detalles",
+        "descripcion": "Descubrí todos nuestros sets especiales y accesorios llenos de dulzura y amor",
+        "items": [
+            {
+                "id": "C1",
+                "nombre": "Mar y Tierra",
+                "precio": 4000,
+                "descripcion": "Vinchas de Estrellas con Hebillas de Flor",
+                "img": "vinchas1.jpeg"
+            },
+            {
+                "id": "C2",
+                "nombre": "Bosques",
+                "precio": 4000,
+                "descripcion": "Vinchas con Mariposas con Hebillas de Flores",
+                "img": "vinchas4.jpeg"
+            },
+            {
+                "id": "C3",
+                "nombre": "Primavera",
+                "precio": 4000,
+                "descripcion": "Vincha Primavera con Hebillas de Flores",
+                "img": "vinchas 5.jpeg"
+            },
+            {
+                "id": "C4",
+                "nombre": "Charms",
+                "precio": 5000,
+                "descripcion": "Llaveros para Carteras y Mochilas",
+                "img": "charms1.jpeg"
+            },
+            {
+                "id": "C5",
+                "nombre": "Charms Mamá",
+                "precio": 5000,
+                "descripcion": "Llaveros para Carteras y Mochilas",
+                "img": "charms2.jpeg"
+            },
+            {
+                "id": "C5",
+                "nombre": "Charm Personalizable",
+                "precio": 5000,
+                "descripcion": "Llaveros para Carteras y Mochilas",
+                "img": "charms3.jpeg"
+            }
+        ]
+    }
+}
