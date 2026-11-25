@@ -45,17 +45,9 @@ Meninas/
 
 ## Cómo ver el sitio
 
-El catálogo se carga con `fetch`. Abrir el HTML con doble clic (`file://`) bloquea esa lectura y la colección queda en error. Hay que servir la carpeta con un servidor local:
+Entrar en el Sitio https://salazarea.github.io/meninas/
 
-```bash
-# Python 3
-python -m http.server 8080
 
-# Node (sin instalar nada en el proyecto)
-npx serve .
-```
-
-Después entrá a `http://localhost:8080`.
 
 ## Catálogo (`json/productos.json`)
 
